@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerStateMachine : StateMachine
 {
     public Vector3 Velocity;
+    public Transform respawnPoint;
     public float MovementSpeed { get; private set; } = 5f;
     public float JumpForce { get; private set; } = 6f;
     public float LookRotationDampFactor { get; private set; } = 15f;

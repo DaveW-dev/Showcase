@@ -15,9 +15,11 @@ public class PlayerDeadState : PlayerBaseState
     public override void Tick()
     {
         ApplyGravity();
+        Move();
 
         if (Input.GetKey(KeyCode.Space))
         {
+            stateMachine.transform.position = stateMachine.respawnPoint.transform.position;
             stateMachine.SwitchState(new PlayerMoveState(stateMachine));
         }
 
@@ -25,6 +27,6 @@ public class PlayerDeadState : PlayerBaseState
 
     public override void Exit() 
     {
-    
+
     }
 }
