@@ -9,6 +9,7 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void Enter()
     {
+        Debug.Log("You are jumping!! wooo");
         stateMachine.Velocity = new Vector3(stateMachine.Velocity.x, stateMachine.JumpForce, stateMachine.Velocity.z);
 
         stateMachine.Animator.CrossFadeInFixedTime(JumpHash, CrossFadeDuration);

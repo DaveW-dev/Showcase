@@ -7,11 +7,18 @@ public class PlayerFallState : PlayerBaseState
 
     public PlayerFallState(PlayerStateMachine stateMachine) : base(stateMachine) { }
 
+    protected void CalculateFallDamage()
+    {
+
+    }
+
     public override void Enter()
     {
+        Debug.Log("You are falling D:");
         stateMachine.Velocity.y = 0f;
 
         stateMachine.Animator.CrossFadeInFixedTime(FallHash, CrossFadeDuration);
+
     }
 
     public override void Tick()
@@ -27,5 +34,9 @@ public class PlayerFallState : PlayerBaseState
         }
     }
 
-    public override void Exit() { }
+    public override void Exit() 
+    {
+       // CalculateFallDamage();
+
+     }
 }

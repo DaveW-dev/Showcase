@@ -3,6 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(InputReader))]
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(HealthComponent))]
 public class PlayerStateMachine : StateMachine
 {
     public Vector3 Velocity;
@@ -13,6 +14,7 @@ public class PlayerStateMachine : StateMachine
     public InputReader InputReader { get; private set; }
     public Animator Animator { get; private set; }
     public CharacterController Controller { get; private set; }
+    public HealthComponent HealthComponent { get; private set; }
 
     private void Start()
     {
@@ -21,7 +23,11 @@ public class PlayerStateMachine : StateMachine
         InputReader = GetComponent<InputReader>();
         Animator = GetComponent<Animator>();
         Controller = GetComponent<CharacterController>();
+        //maxHealth = GetComponent<HealthComponent>();
+        //currentHealth = GetComponent<HealthComponent>();
+        //minHealth = GetComponent<HealthComponent>();
+        //healthRegen = GetComponent<HealthComponent>();
 
-        SwitchState(new PlayerMoveState(this));
+        SwitchState(new PlayerDeadState(this));
     }
 }

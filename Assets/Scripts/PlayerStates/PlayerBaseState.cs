@@ -42,4 +42,9 @@ public abstract class PlayerBaseState : State
     {
         stateMachine.Controller.Move(stateMachine.Velocity * Time.deltaTime);
     }
+
+    protected void ApplyHealthRegen()
+    {
+        //HealthComponent.currentHealth += healthRegen;
+    }
 }

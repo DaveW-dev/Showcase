@@ -11,6 +11,7 @@ public class PlayerMoveState : PlayerBaseState
 
     public override void Enter()
     {
+        Debug.Log("You are schmovin");
         stateMachine.Velocity.y = Physics.gravity.y;
 
         stateMachine.Animator.CrossFadeInFixedTime(MoveBlendTreeHash, CrossFadeDuration);
