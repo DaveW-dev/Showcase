@@ -26,6 +26,7 @@ public class PlayerMoveState : PlayerBaseState
             stateMachine.SwitchState(new PlayerFallState(stateMachine));
         }
 
+        ApplyHealthRegen();
         CalculateMoveDirection();
         FaceMoveDirection();
         Move();

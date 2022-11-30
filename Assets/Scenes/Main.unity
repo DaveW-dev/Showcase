@@ -874,8 +874,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357290020}
-  m_LocalRotation: {x: 0.098519996, y: 0.018817145, z: -0.0018632619, w: 0.9949554}
-  m_LocalPosition: {x: 0.00000066345035, y: -0.0000000059794782, z: -0.00000012060333}
+  m_LocalRotation: {x: 0.098519996, y: 0.018817145, z: -0.001863262, w: 0.9949554}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1539,8 +1539,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.10584413, y: 0.31407678, z: -0.035259314, w: 0.94282}
-  m_LocalPosition: {x: 5.5856967, y: 8.79, z: 7.9468427}
+  m_LocalRotation: {x: 0.10584415, y: 0.31407675, z: -0.035259314, w: 0.94282}
+  m_LocalPosition: {x: 5.585697, y: 8.79, z: 7.9468427}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1651,7 +1651,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972390256}
-  m_LocalRotation: {x: 0.062313262, y: 0.018872501, z: -0.0011785009, w: 0.9978775}
+  m_LocalRotation: {x: 0.062313285, y: 0.01887241, z: -0.0011784973, w: 0.99787754}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1853,7 +1853,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295963366}
-  m_LocalRotation: {x: 0.08040595, y: 0.018847985, z: -0.0015206876, w: 0.9965828}
+  m_LocalRotation: {x: 0.08040597, y: 0.018847926, z: -0.0015206854, w: 0.9965828}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2355,7 +2355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779778862}
   m_LocalRotation: {x: -0.08040598, y: -0.018848015, z: 0.0015206895, w: 0.9965828}
-  m_LocalPosition: {x: -0.00000038157708, y: -0.00000006340635, z: -0.00000027884087}
+  m_LocalPosition: {x: 0.00000038157708, y: 0.00000006340635, z: 0.0000002788409}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2538,8 +2538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1000
   minHealth: 0
-  currentHealth: 0
-  healthRegen: 0
+  currentHealth: 1000
+  healthRegen: 1
 --- !u!1001 &2000675924
 PrefabInstance:
   m_ObjectHideFlags: 0

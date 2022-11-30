@@ -20,15 +20,20 @@ public class PlayerStateMachine : StateMachine
     private void Start()
     {
         MainCamera = Camera.main.transform;
-
         InputReader = GetComponent<InputReader>();
         Animator = GetComponent<Animator>();
         Controller = GetComponent<CharacterController>();
-        //maxHealth = GetComponent<HealthComponent>();
-        //currentHealth = GetComponent<HealthComponent>();
-        //minHealth = GetComponent<HealthComponent>();
-        //healthRegen = GetComponent<HealthComponent>();
+        HealthComponent = GetComponent<HealthComponent>();
 
+        //Default state (dead):
         SwitchState(new PlayerDeadState(this));
+    }
+
+    private void LateUpdate()
+    {
+        if (HealthComponent.currentHealth < HealthComponent.minHealth)
+        {
+            SwitchState(new PlayerDeadState(this));
+        }
     }
 }

@@ -45,6 +45,9 @@ public abstract class PlayerBaseState : State
 
     protected void ApplyHealthRegen()
     {
-        //HealthComponent.currentHealth += healthRegen;
+        if (stateMachine.HealthComponent.currentHealth < stateMachine.HealthComponent.maxHealth)
+        {
+            stateMachine.HealthComponent.currentHealth += stateMachine.HealthComponent.healthRegen;
+        }
     }
 }
