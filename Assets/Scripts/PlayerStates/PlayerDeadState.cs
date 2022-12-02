@@ -14,6 +14,7 @@ public class PlayerDeadState : PlayerBaseState
 
     public override void Tick()
     {
+        ApplyHeatCooling();
         ApplyGravity();
         Move();
 
@@ -24,7 +25,7 @@ public class PlayerDeadState : PlayerBaseState
             stateMachine.transform.position = stateMachine.respawnPoint.transform.position;
             //Set health back to max
             stateMachine.HealthComponent.currentHealth = stateMachine.HealthComponent.maxHealth;
-            //Switch to move state. 
+            //Switch to move state 
             stateMachine.SwitchState(new PlayerMoveState(stateMachine));
         }
 

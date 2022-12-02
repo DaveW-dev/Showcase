@@ -6,6 +6,7 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 {
     public Vector2 MouseDelta;
     public Vector2 MoveComposite;
+    public Vector2 ZoomDelta;
 
     public Action OnJumpPerformed;
 
@@ -43,5 +44,11 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 
         OnJumpPerformed?.Invoke();
     }
+
+    public void OnZoom(InputAction.CallbackContext context)
+    {
+        ZoomDelta = context.ReadValue<Vector2>();
+    }
+
 }
 

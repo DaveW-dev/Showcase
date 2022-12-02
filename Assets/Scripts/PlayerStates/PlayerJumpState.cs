@@ -13,12 +13,14 @@ public class PlayerJumpState : PlayerBaseState
         stateMachine.Velocity = new Vector3(stateMachine.Velocity.x, stateMachine.JumpForce, stateMachine.Velocity.z);
 
         stateMachine.Animator.CrossFadeInFixedTime(JumpHash, CrossFadeDuration);
+        stateMachine.InputReader.OnJumpPerformed += SwitchToFlyState;
     }
 
     public override void Tick()
     {
         ApplyGravity();
         ApplyHealthRegen();
+        ApplyHeatCooling();
         if (stateMachine.Velocity.y <= 0f)
         {
             stateMachine.SwitchState(new PlayerFallState(stateMachine));
@@ -26,7 +28,22 @@ public class PlayerJumpState : PlayerBaseState
         CalculateMoveDirection();
         FaceMoveDirection();
         Move();
+
+
+
+
+
     }
 
-    public override void Exit() { }
+    public override void Exit() 
+    {
+        stateMachine.InputReader.OnJumpPerformed -= SwitchToFlyState;
+    }
+
+    private void SwitchToFlyState()
+    {
+        stateMachine.SwitchState(new PlayerFlyState(stateMachine));
+    }
+
+
 }

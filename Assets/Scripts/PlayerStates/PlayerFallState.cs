@@ -33,12 +33,13 @@ public class PlayerFallState : PlayerBaseState
         stateMachine.Animator.CrossFadeInFixedTime(FallHash, CrossFadeDuration);
 
         fallTime = 0f;
-
+        stateMachine.InputReader.OnJumpPerformed += SwitchToFlyState;
     }
 
     public override void Tick()
     {
         ApplyHealthRegen();
+        ApplyHeatCooling();
         ApplyGravity();
         CalculateMoveDirection();
         FaceMoveDirection();
@@ -49,12 +50,19 @@ public class PlayerFallState : PlayerBaseState
         if (stateMachine.Controller.isGrounded)
         {
             //Apply fall damage here? Should be before moving to move state in case it leads to deathstate.
+            ApplyFallDamage();
             stateMachine.SwitchState(new PlayerMoveState(stateMachine));
         }
     }
 
     public override void Exit() 
     {
-       ApplyFallDamage();
+
+       stateMachine.InputReader.OnJumpPerformed -= SwitchToFlyState;
+    }
+
+    private void SwitchToFlyState()
+    {
+        stateMachine.SwitchState(new PlayerFlyState(stateMachine));
     }
 }

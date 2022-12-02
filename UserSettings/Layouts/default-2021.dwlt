@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 51
+  controlID: 106
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 530
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 319
     height: 536
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,14 +121,14 @@ MonoBehaviour:
     y: 536
     width: 1390
     height: 411
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,13 +309,13 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -472,10 +472,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2022-11-29T14:45:43.577+00:00
+      updatedTimeString: 2022-11-30T12:58:48.372+00:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2022-11-29T14:45:43.582+00:00
+      updatedTimeString: 2022-11-30T13:02:51.854+00:00
       cacheType: 1
     currentBranch:
       name: master
@@ -497,8 +497,8 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
@@ -772,18 +772,510 @@ MonoBehaviour:
       workTreeStatus: 3
     changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-11-29T19:53:39.632+00:00
+      updatedTimeString: 2022-11-30T13:05:35.265+00:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-11-29T19:53:40.908+00:00
+      updatedTimeString: 2022-11-30T13:17:52.214+00:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-11-29T18:57:31.922+00:00
+      updatedTimeString: 2022-11-30T13:17:32.281+00:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     logEntries:
+    - commitID: 7dccec9c30815de56d22ac7e354c5af7bfa79f35
+      mergeA: 
+      mergeB: 
+      authorName: DaveW
+      authorEmail: davewdev@proton.me
+      commitEmail: davewdev@proton.me
+      commitName: DaveW
+      summary: 1
+      description: 1
+      timeString: 2022-11-30T13:05:25.000+00:00
+      commitTimeString: 2022-11-30T13:05:25.000+00:00
+      changes:
+      - path: Assets\Animations.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Animations.meta
+        projectPath: Assets\Animations.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\PlayerAnimator.controller.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Animations\PlayerAnimator.controller.meta
+        projectPath: Assets\Animations\PlayerAnimator.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\BoxBoi.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi.meta
+        projectPath: Assets\BoxBoi.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\BoxBoi\BoxBoiNew.fbx.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\BoxBoiNew.fbx.meta
+        projectPath: Assets\BoxBoi\BoxBoiNew.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\BoxBoi\Materials.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials.meta
+        projectPath: Assets\BoxBoi\Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\BoxBoi\Materials\Black.001.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials\Black.001.mat.meta
+        projectPath: Assets\BoxBoi\Materials\Black.001.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Controls.inputactions.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Controls.inputactions.meta
+        projectPath: Assets\Controls.inputactions.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\InputSystem.inputsettings.asset.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\InputSystem.inputsettings.asset.meta
+        projectPath: Assets\InputSystem.inputsettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials.meta
+        projectPath: Assets\Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Black.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Black.mat.meta
+        projectPath: Assets\Materials\Black.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Blue.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Blue.mat.meta
+        projectPath: Assets\Materials\Blue.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Brown.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Brown.mat.meta
+        projectPath: Assets\Materials\Brown.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Gold.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Gold.mat.meta
+        projectPath: Assets\Materials\Gold.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Ground_MAT.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Ground_MAT.mat.meta
+        projectPath: Assets\Materials\Ground_MAT.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Red.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Red.mat.meta
+        projectPath: Assets\Materials\Red.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Chest.prefab.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Chest.prefab.meta
+        projectPath: Assets\Prefabs\Chest.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Mountain (6).prefab.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Mountain (6).prefab.meta
+        projectPath: Assets\Prefabs\Mountain (6).prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Obstacle.prefab.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Obstacle.prefab.meta
+        projectPath: Assets\Prefabs\Obstacle.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Main.unity.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity.meta
+        projectPath: Assets\Scenes\Main.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Controls.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\Controls.cs.meta
+        projectPath: Assets\Scripts\Controls.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\HealthComponent.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\HealthComponent.cs.meta
+        projectPath: Assets\Scripts\HealthComponent.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\InputReader.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\InputReader.cs.meta
+        projectPath: Assets\Scripts\InputReader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates.meta
+        projectPath: Assets\Scripts\PlayerStates.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\State.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\State.cs.meta
+        projectPath: Assets\Scripts\State.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\StateMachine.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs.meta
+        projectPath: Assets\Scripts\StateMachine.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: D:\Unity Stuff\Showcase\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: D:\Unity Stuff\Showcase\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 61d5184e12f89feeef1a7cdeee42b595d168b56f
+      mergeA: 
+      mergeB: 
+      authorName: DaveW-dev
+      authorEmail: 119422695+DaveW-dev@users.noreply.github.com
+      commitEmail: noreply@github.com
+      commitName: GitHub
+      summary: Update .gitignore
+      description: 
+      timeString: 2022-11-30T13:01:45.000+00:00
+      commitTimeString: 2022-11-30T13:01:45.000+00:00
+      changes:
+      - path: .gitignore
+        fullPath: D:\Unity Stuff\Showcase\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 63071d7a31727cdd0f248a7e38c569072154c6db
+      mergeA: 
+      mergeB: 
+      authorName: DaveW-dev
+      authorEmail: 119422695+DaveW-dev@users.noreply.github.com
+      commitEmail: noreply@github.com
+      commitName: GitHub
+      summary: Delete Player.prefab
+      description: 
+      timeString: 2022-11-30T13:00:29.000+00:00
+      commitTimeString: 2022-11-30T13:00:29.000+00:00
+      changes:
+      - path: Assets\Prefabs\Player.prefab
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Player.prefab
+        projectPath: Assets\Prefabs\Player.prefab
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+    - commitID: 989d0013f9d8bc490bea39333668bf4af2b545f1
+      mergeA: 
+      mergeB: 
+      authorName: DaveW
+      authorEmail: davewdev@proton.me
+      commitEmail: davewdev@proton.me
+      commitName: DaveW
+      summary: fall dmg
+      description: epic fall dmg added
+      timeString: 2022-11-30T12:58:20.000+00:00
+      commitTimeString: 2022-11-30T12:58:20.000+00:00
+      changes:
+      - path: Assets\Scenes\Main.unity
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+        projectPath: Assets\Scenes\Main.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\StateMachine.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs
+        projectPath: Assets\Scripts\StateMachine.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: D:\Unity Stuff\Showcase\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 549db99661b5c9db08f7838ef64e5e486a63ba3b
+      mergeA: 
+      mergeB: 
+      authorName: DaveW
+      authorEmail: davewdev@proton.me
+      commitEmail: davewdev@proton.me
+      commitName: DaveW
+      summary: better respawn
+      description: better respawn / fixedupdate instead of update
+      timeString: 2022-11-29T18:49:00.000+00:00
+      commitTimeString: 2022-11-29T18:49:00.000+00:00
+      changes:
+      - path: Assets\Scenes\Main.unity
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+        projectPath: Assets\Scenes\Main.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\StateMachine.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs
+        projectPath: Assets\Scripts\StateMachine.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 05322f7496ad450c3bd6b02fe3e761a1984585de
+      mergeA: 
+      mergeB: 
+      authorName: DaveW
+      authorEmail: davewdev@proton.me
+      commitEmail: davewdev@proton.me
+      commitName: DaveW
+      summary: spawn system and current state debug
+      description: spawn system and current state debug
+      timeString: 2022-11-29T18:15:04.000+00:00
+      commitTimeString: 2022-11-29T18:15:04.000+00:00
+      changes:
+      - path: Assets\Scenes\Main.unity
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+        projectPath: Assets\Scenes\Main.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Controls.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\Controls.cs
+        projectPath: Assets\Scripts\Controls.cs
+        originalPath: Assets\Controls.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scripts\HealthComponent.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\HealthComponent.cs
+        projectPath: Assets\Scripts\HealthComponent.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\InputReader.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\InputReader.cs
+        projectPath: Assets\Scripts\InputReader.cs
+        originalPath: Assets\InputReader.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 0ef587f6a42e01ba67889d45be1786ee66239098
+      mergeA: 758dbdf6daa3df56335ddbc5ccbabfb296d3eb2a
+      mergeB: ab925c18e589fa9ff4d496403b7ac9c8814ba217
+      authorName: DaveW
+      authorEmail: davewdev@proton.me
+      commitEmail: davewdev@proton.me
+      commitName: DaveW
+      summary: Merge branch 'master' of https://github.com/DaveW-dev/Showcase
+      description: 
+      timeString: 2022-11-29T14:45:31.000+00:00
+      commitTimeString: 2022-11-29T14:45:31.000+00:00
+      changes: []
+    - commitID: 758dbdf6daa3df56335ddbc5ccbabfb296d3eb2a
+      mergeA: 
+      mergeB: 
+      authorName: DaveW
+      authorEmail: davewdev@proton.me
+      commitEmail: davewdev@proton.me
+      commitName: DaveW
+      summary: asd
+      description: asd
+      timeString: 2022-11-29T14:44:49.000+00:00
+      commitTimeString: 2022-11-29T14:44:49.000+00:00
+      changes:
+      - path: Assets\Scenes\Main.unity
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+        projectPath: Assets\Scenes\Main.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ab925c18e589fa9ff4d496403b7ac9c8814ba217
+      mergeA: 
+      mergeB: 
+      authorName: DaveW-dev
+      authorEmail: 119422695+DaveW-dev@users.noreply.github.com
+      commitEmail: noreply@github.com
+      commitName: GitHub
+      summary: Delete .gitignore
+      description: 
+      timeString: 2022-11-29T14:40:29.000+00:00
+      commitTimeString: 2022-11-29T14:40:29.000+00:00
+      changes:
+      - path: Assets\.gitignore
+        fullPath: D:\Unity Stuff\Showcase\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
     - commitID: b17b558a8373bd973f9f57d5d0bbb58c83349945
       mergeA: 
       mergeB: 
@@ -1146,14 +1638,506 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-11-29T14:42:56.340+00:00
+      updatedTimeString: 2022-12-01T15:04:51.137+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-11-29T14:42:56.335+00:00
+      updatedTimeString: 2022-12-01T15:04:51.123+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 7dccec9c30815de56d22ac7e354c5af7bfa79f35
+        mergeA: 
+        mergeB: 
+        authorName: DaveW
+        authorEmail: davewdev@proton.me
+        commitEmail: davewdev@proton.me
+        commitName: DaveW
+        summary: 1
+        description: 1
+        timeString: 2022-11-30T13:05:25.000+00:00
+        commitTimeString: 2022-11-30T13:05:25.000+00:00
+        changes:
+        - path: Assets\Animations.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Animations.meta
+          projectPath: Assets\Animations.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\PlayerAnimator.controller.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Animations\PlayerAnimator.controller.meta
+          projectPath: Assets\Animations\PlayerAnimator.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\BoxBoi.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi.meta
+          projectPath: Assets\BoxBoi.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\BoxBoi\BoxBoiNew.fbx.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\BoxBoiNew.fbx.meta
+          projectPath: Assets\BoxBoi\BoxBoiNew.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\BoxBoi\Materials.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials.meta
+          projectPath: Assets\BoxBoi\Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\BoxBoi\Materials\Black.001.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials\Black.001.mat.meta
+          projectPath: Assets\BoxBoi\Materials\Black.001.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Controls.inputactions.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Controls.inputactions.meta
+          projectPath: Assets\Controls.inputactions.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\InputSystem.inputsettings.asset.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\InputSystem.inputsettings.asset.meta
+          projectPath: Assets\InputSystem.inputsettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials.meta
+          projectPath: Assets\Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Black.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Black.mat.meta
+          projectPath: Assets\Materials\Black.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Blue.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Blue.mat.meta
+          projectPath: Assets\Materials\Blue.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Brown.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Brown.mat.meta
+          projectPath: Assets\Materials\Brown.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Gold.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Gold.mat.meta
+          projectPath: Assets\Materials\Gold.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Ground_MAT.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Ground_MAT.mat.meta
+          projectPath: Assets\Materials\Ground_MAT.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Red.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Red.mat.meta
+          projectPath: Assets\Materials\Red.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Chest.prefab.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Chest.prefab.meta
+          projectPath: Assets\Prefabs\Chest.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Mountain (6).prefab.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Mountain (6).prefab.meta
+          projectPath: Assets\Prefabs\Mountain (6).prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Obstacle.prefab.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Obstacle.prefab.meta
+          projectPath: Assets\Prefabs\Obstacle.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Main.unity.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity.meta
+          projectPath: Assets\Scenes\Main.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Controls.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\Controls.cs.meta
+          projectPath: Assets\Scripts\Controls.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\HealthComponent.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\HealthComponent.cs.meta
+          projectPath: Assets\Scripts\HealthComponent.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\InputReader.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\InputReader.cs.meta
+          projectPath: Assets\Scripts\InputReader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates.meta
+          projectPath: Assets\Scripts\PlayerStates.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\State.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\State.cs.meta
+          projectPath: Assets\Scripts\State.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\StateMachine.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs.meta
+          projectPath: Assets\Scripts\StateMachine.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: D:\Unity Stuff\Showcase\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: D:\Unity Stuff\Showcase\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 61d5184e12f89feeef1a7cdeee42b595d168b56f
+        mergeA: 
+        mergeB: 
+        authorName: DaveW-dev
+        authorEmail: 119422695+DaveW-dev@users.noreply.github.com
+        commitEmail: noreply@github.com
+        commitName: GitHub
+        summary: Update .gitignore
+        description: 
+        timeString: 2022-11-30T13:01:45.000+00:00
+        commitTimeString: 2022-11-30T13:01:45.000+00:00
+        changes:
+        - path: .gitignore
+          fullPath: D:\Unity Stuff\Showcase\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 63071d7a31727cdd0f248a7e38c569072154c6db
+        mergeA: 
+        mergeB: 
+        authorName: DaveW-dev
+        authorEmail: 119422695+DaveW-dev@users.noreply.github.com
+        commitEmail: noreply@github.com
+        commitName: GitHub
+        summary: Delete Player.prefab
+        description: 
+        timeString: 2022-11-30T13:00:29.000+00:00
+        commitTimeString: 2022-11-30T13:00:29.000+00:00
+        changes:
+        - path: Assets\Prefabs\Player.prefab
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - commitID: 989d0013f9d8bc490bea39333668bf4af2b545f1
+        mergeA: 
+        mergeB: 
+        authorName: DaveW
+        authorEmail: davewdev@proton.me
+        commitEmail: davewdev@proton.me
+        commitName: DaveW
+        summary: fall dmg
+        description: epic fall dmg added
+        timeString: 2022-11-30T12:58:20.000+00:00
+        commitTimeString: 2022-11-30T12:58:20.000+00:00
+        changes:
+        - path: Assets\Scenes\Main.unity
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+          projectPath: Assets\Scenes\Main.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerFallState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\StateMachine.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs
+          projectPath: Assets\Scripts\StateMachine.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: D:\Unity Stuff\Showcase\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 549db99661b5c9db08f7838ef64e5e486a63ba3b
+        mergeA: 
+        mergeB: 
+        authorName: DaveW
+        authorEmail: davewdev@proton.me
+        commitEmail: davewdev@proton.me
+        commitName: DaveW
+        summary: better respawn
+        description: better respawn / fixedupdate instead of update
+        timeString: 2022-11-29T18:49:00.000+00:00
+        commitTimeString: 2022-11-29T18:49:00.000+00:00
+        changes:
+        - path: Assets\Scenes\Main.unity
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+          projectPath: Assets\Scenes\Main.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\StateMachine.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs
+          projectPath: Assets\Scripts\StateMachine.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 05322f7496ad450c3bd6b02fe3e761a1984585de
+        mergeA: 
+        mergeB: 
+        authorName: DaveW
+        authorEmail: davewdev@proton.me
+        commitEmail: davewdev@proton.me
+        commitName: DaveW
+        summary: spawn system and current state debug
+        description: spawn system and current state debug
+        timeString: 2022-11-29T18:15:04.000+00:00
+        commitTimeString: 2022-11-29T18:15:04.000+00:00
+        changes:
+        - path: Assets\Scenes\Main.unity
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+          projectPath: Assets\Scenes\Main.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Controls.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\Controls.cs
+          projectPath: Assets\Scripts\Controls.cs
+          originalPath: Assets\Controls.cs
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scripts\HealthComponent.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\HealthComponent.cs
+          projectPath: Assets\Scripts\HealthComponent.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\InputReader.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\InputReader.cs
+          projectPath: Assets\Scripts\InputReader.cs
+          originalPath: Assets\InputReader.cs
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerFallState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 0ef587f6a42e01ba67889d45be1786ee66239098
+        mergeA: 758dbdf6daa3df56335ddbc5ccbabfb296d3eb2a
+        mergeB: ab925c18e589fa9ff4d496403b7ac9c8814ba217
+        authorName: DaveW
+        authorEmail: davewdev@proton.me
+        commitEmail: davewdev@proton.me
+        commitName: DaveW
+        summary: Merge branch 'master' of https://github.com/DaveW-dev/Showcase
+        description: 
+        timeString: 2022-11-29T14:45:31.000+00:00
+        commitTimeString: 2022-11-29T14:45:31.000+00:00
+        changes: []
+      - commitID: 758dbdf6daa3df56335ddbc5ccbabfb296d3eb2a
+        mergeA: 
+        mergeB: 
+        authorName: DaveW
+        authorEmail: davewdev@proton.me
+        commitEmail: davewdev@proton.me
+        commitName: DaveW
+        summary: asd
+        description: asd
+        timeString: 2022-11-29T14:44:49.000+00:00
+        commitTimeString: 2022-11-29T14:44:49.000+00:00
+        changes:
+        - path: Assets\Scenes\Main.unity
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
+          projectPath: Assets\Scenes\Main.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ab925c18e589fa9ff4d496403b7ac9c8814ba217
+        mergeA: 
+        mergeB: 
+        authorName: DaveW-dev
+        authorEmail: 119422695+DaveW-dev@users.noreply.github.com
+        commitEmail: noreply@github.com
+        commitName: GitHub
+        summary: Delete .gitignore
+        description: 
+        timeString: 2022-11-29T14:40:29.000+00:00
+        commitTimeString: 2022-11-29T14:40:29.000+00:00
+        changes:
+        - path: Assets\.gitignore
+          fullPath: D:\Unity Stuff\Showcase\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
       - commitID: b17b558a8373bd973f9f57d5d0bbb58c83349945
         mergeA: 
         mergeB: 
@@ -1517,7 +2501,7 @@ MonoBehaviour:
       statusAhead: 0
       selectedIndex: 0
     selectedEntry:
-      commitID: b17b558a8373bd973f9f57d5d0bbb58c83349945
+      commitID: 7dccec9c30815de56d22ac7e354c5af7bfa79f35
       mergeA: 
       mergeB: 
       authorName: DaveW
@@ -1526,324 +2510,228 @@ MonoBehaviour:
       commitName: DaveW
       summary: 1
       description: 1
-      timeString: 2022-11-29T14:32:13.000+00:00
-      commitTimeString: 2022-11-29T14:32:13.000+00:00
+      timeString: 2022-11-30T13:05:25.000+00:00
+      commitTimeString: 2022-11-30T13:05:25.000+00:00
       changes:
-      - path: .collabignore
-        fullPath: D:\Unity Stuff\Showcase\.collabignore
-        projectPath: .collabignore
+      - path: Assets\Animations.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Animations.meta
+        projectPath: Assets\Animations.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: .gitignore
-        fullPath: D:\Unity Stuff\Showcase\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Animations\PlayerAnimator.controller
-        fullPath: D:\Unity Stuff\Showcase\Assets\Animations\PlayerAnimator.controller
-        projectPath: Assets\Animations\PlayerAnimator.controller
+      - path: Assets\Animations\PlayerAnimator.controller.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Animations\PlayerAnimator.controller.meta
+        projectPath: Assets\Animations\PlayerAnimator.controller.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\BoxBoi\BoxBoiNew.fbx
-        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\BoxBoiNew.fbx
-        projectPath: Assets\BoxBoi\BoxBoiNew.fbx
+      - path: Assets\BoxBoi.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi.meta
+        projectPath: Assets\BoxBoi.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\BoxBoi\Materials\Black.001.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials\Black.001.mat
-        projectPath: Assets\BoxBoi\Materials\Black.001.mat
+      - path: Assets\BoxBoi\BoxBoiNew.fbx.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\BoxBoiNew.fbx.meta
+        projectPath: Assets\BoxBoi\BoxBoiNew.fbx.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Controls.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Controls.cs
-        projectPath: Assets\Controls.cs
+      - path: Assets\BoxBoi\Materials.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials.meta
+        projectPath: Assets\BoxBoi\Materials.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Controls.inputactions
-        fullPath: D:\Unity Stuff\Showcase\Assets\Controls.inputactions
-        projectPath: Assets\Controls.inputactions
+      - path: Assets\BoxBoi\Materials\Black.001.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials\Black.001.mat.meta
+        projectPath: Assets\BoxBoi\Materials\Black.001.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\InputReader.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\InputReader.cs
-        projectPath: Assets\InputReader.cs
+      - path: Assets\Controls.inputactions.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Controls.inputactions.meta
+        projectPath: Assets\Controls.inputactions.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\InputSystem.inputsettings.asset
-        fullPath: D:\Unity Stuff\Showcase\Assets\InputSystem.inputsettings.asset
-        projectPath: Assets\InputSystem.inputsettings.asset
+      - path: Assets\InputSystem.inputsettings.asset.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\InputSystem.inputsettings.asset.meta
+        projectPath: Assets\InputSystem.inputsettings.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Materials\Black.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Black.mat
-        projectPath: Assets\Materials\Black.mat
+      - path: Assets\Materials.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials.meta
+        projectPath: Assets\Materials.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Materials\Blue.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Blue.mat
-        projectPath: Assets\Materials\Blue.mat
+      - path: Assets\Materials\Black.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Black.mat.meta
+        projectPath: Assets\Materials\Black.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Materials\Brown.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Brown.mat
-        projectPath: Assets\Materials\Brown.mat
+      - path: Assets\Materials\Blue.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Blue.mat.meta
+        projectPath: Assets\Materials\Blue.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Materials\Gold.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Gold.mat
-        projectPath: Assets\Materials\Gold.mat
+      - path: Assets\Materials\Brown.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Brown.mat.meta
+        projectPath: Assets\Materials\Brown.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Materials\Ground_MAT.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Ground_MAT.mat
-        projectPath: Assets\Materials\Ground_MAT.mat
+      - path: Assets\Materials\Gold.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Gold.mat.meta
+        projectPath: Assets\Materials\Gold.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Materials\Red.mat
-        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Red.mat
-        projectPath: Assets\Materials\Red.mat
+      - path: Assets\Materials\Ground_MAT.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Ground_MAT.mat.meta
+        projectPath: Assets\Materials\Ground_MAT.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Prefabs\Chest.prefab
-        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Chest.prefab
-        projectPath: Assets\Prefabs\Chest.prefab
+      - path: Assets\Materials\Red.mat.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Red.mat.meta
+        projectPath: Assets\Materials\Red.mat.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Prefabs\Mountain (6).prefab
-        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Mountain (6).prefab
-        projectPath: Assets\Prefabs\Mountain (6).prefab
+      - path: Assets\Prefabs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Prefabs\Obstacle.prefab
-        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Obstacle.prefab
-        projectPath: Assets\Prefabs\Obstacle.prefab
+      - path: Assets\Prefabs\Chest.prefab.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Chest.prefab.meta
+        projectPath: Assets\Prefabs\Chest.prefab.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Prefabs\Player.prefab
-        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Player.prefab
-        projectPath: Assets\Prefabs\Player.prefab
+      - path: Assets\Prefabs\Mountain (6).prefab.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Mountain (6).prefab.meta
+        projectPath: Assets\Prefabs\Mountain (6).prefab.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scenes\Main.unity
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
-        projectPath: Assets\Scenes\Main.unity
+      - path: Assets\Prefabs\Obstacle.prefab.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Obstacle.prefab.meta
+        projectPath: Assets\Prefabs\Obstacle.prefab.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs
-        projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+      - path: Assets\Scenes.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs
-        projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs
+      - path: Assets\Scenes\Main.unity.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity.meta
+        projectPath: Assets\Scenes\Main.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs
-        projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+      - path: Assets\Scripts.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs
-        projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+      - path: Assets\Scripts\Controls.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\Controls.cs.meta
+        projectPath: Assets\Scripts\Controls.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
-        projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+      - path: Assets\Scripts\HealthComponent.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\HealthComponent.cs.meta
+        projectPath: Assets\Scripts\HealthComponent.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\State.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\State.cs
-        projectPath: Assets\Scripts\State.cs
+      - path: Assets\Scripts\InputReader.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\InputReader.cs.meta
+        projectPath: Assets\Scripts\InputReader.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scripts\StateMachine.cs
-        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs
-        projectPath: Assets\Scripts\StateMachine.cs
+      - path: Assets\Scripts\PlayerStates.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates.meta
+        projectPath: Assets\Scripts\PlayerStates.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\AudioManager.asset
-        projectPath: ProjectSettings\AudioManager.asset
+      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\ClusterInputManager.asset
-        projectPath: ProjectSettings\ClusterInputManager.asset
+      - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\DynamicsManager.asset
-        projectPath: ProjectSettings\DynamicsManager.asset
+      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
+      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\EditorSettings.asset
-        projectPath: ProjectSettings\EditorSettings.asset
+      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
+      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+        projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\InputManager.asset
-        projectPath: ProjectSettings\InputManager.asset
+      - path: Assets\Scripts\State.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\State.cs.meta
+        projectPath: Assets\Scripts\State.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\MemorySettings.asset
-        projectPath: ProjectSettings\MemorySettings.asset
+      - path: Assets\Scripts\StateMachine.cs.meta
+        fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs.meta
+        projectPath: Assets\Scripts\StateMachine.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\NavMeshAreas.asset
-        projectPath: ProjectSettings\NavMeshAreas.asset
+      - path: Packages\manifest.json
+        fullPath: D:\Unity Stuff\Showcase\Packages\manifest.json
+        projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\PackageManagerSettings.asset
-        projectPath: ProjectSettings\PackageManagerSettings.asset
+      - path: Packages\packages-lock.json
+        fullPath: D:\Unity Stuff\Showcase\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\Physics2DSettings.asset
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\ProjectSettings.asset
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\QualitySettings.asset
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\SceneTemplateSettings.json
-        projectPath: ProjectSettings\SceneTemplateSettings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\TagManager.asset
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\TimeManager.asset
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\UnityConnectSettings.asset
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\VFXManager.asset
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\VersionControlSettings.asset
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\XRSettings.asset
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\boot.config
-        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\boot.config
-        projectPath: ProjectSettings\boot.config
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: D:\Unity Stuff\Showcase\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: D:\Unity Stuff\Showcase\UserSettings\Layouts\default-2021.dwlt
-        projectPath: UserSettings\Layouts\default-2021.dwlt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        fullPath: D:\Unity Stuff\Showcase\UserSettings\Search.settings
-        projectPath: UserSettings\Search.settings
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: D:\Unity Stuff\Showcase\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
@@ -1862,9 +2750,10 @@ MonoBehaviour:
         - Assets\Scenes
         - Assets\Scripts
         - Assets\Scripts\PlayerStates
+        - Packages
         - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
+        - ProjectSettings\Packages
+        - ProjectSettings\Packages\com.unity.testtools.codecoverage
         values:
         - path: Assets
           label: Assets
@@ -2028,6 +2917,24 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: ProjectSettings
           label: ProjectSettings
           level: 0
@@ -2046,9 +2953,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
+        - path: ProjectSettings\Packages
+          label: Packages
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2064,9 +2971,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
+        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
+          label: com.unity.testtools.codecoverage
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2110,42 +3017,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .collabignore
-        label: .collabignore
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .collabignore
-          fullPath: D:\Unity Stuff\Showcase\.collabignore
-          projectPath: .collabignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .gitignore
-        label: .gitignore
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .gitignore
-          fullPath: D:\Unity Stuff\Showcase\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
       - path: Assets
         label: Assets
         level: 0
@@ -2163,6 +3034,24 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Animations.meta
+        label: Animations.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Animations.meta
+          projectPath: Assets\Animations.meta
+          originalPath: 
+          indexStatus: 4
           workTreeStatus: 0
       - path: Assets\Animations
         label: Animations
@@ -2182,8 +3071,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Animations\PlayerAnimator.controller
-        label: PlayerAnimator.controller
+      - path: Assets\Animations\PlayerAnimator.controller.meta
+        label: PlayerAnimator.controller.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2194,9 +3083,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Animations\PlayerAnimator.controller
-          fullPath: D:\Unity Stuff\Showcase\Assets\Animations\PlayerAnimator.controller
-          projectPath: Assets\Animations\PlayerAnimator.controller
+          path: Assets\Animations\PlayerAnimator.controller.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Animations\PlayerAnimator.controller.meta
+          projectPath: Assets\Animations\PlayerAnimator.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\BoxBoi.meta
+        label: BoxBoi.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\BoxBoi.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi.meta
+          projectPath: Assets\BoxBoi.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2218,8 +3125,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\BoxBoi\BoxBoiNew.fbx
-        label: BoxBoiNew.fbx
+      - path: Assets\BoxBoi\BoxBoiNew.fbx.meta
+        label: BoxBoiNew.fbx.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2230,9 +3137,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\BoxBoi\BoxBoiNew.fbx
-          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\BoxBoiNew.fbx
-          projectPath: Assets\BoxBoi\BoxBoiNew.fbx
+          path: Assets\BoxBoi\BoxBoiNew.fbx.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\BoxBoiNew.fbx.meta
+          projectPath: Assets\BoxBoi\BoxBoiNew.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\BoxBoi\Materials.meta
+        label: Materials.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\BoxBoi\Materials.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials.meta
+          projectPath: Assets\BoxBoi\Materials.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2254,8 +3179,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\BoxBoi\Materials\Black.001.mat
-        label: Black.001.mat
+      - path: Assets\BoxBoi\Materials\Black.001.mat.meta
+        label: Black.001.mat.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2266,14 +3191,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\BoxBoi\Materials\Black.001.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials\Black.001.mat
-          projectPath: Assets\BoxBoi\Materials\Black.001.mat
+          path: Assets\BoxBoi\Materials\Black.001.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\BoxBoi\Materials\Black.001.mat.meta
+          projectPath: Assets\BoxBoi\Materials\Black.001.mat.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Controls.cs
-        label: Controls.cs
+      - path: Assets\Controls.inputactions.meta
+        label: Controls.inputactions.meta
         level: 1
         isFolder: 0
         isContainer: 0
@@ -2284,14 +3209,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Controls.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Controls.cs
-          projectPath: Assets\Controls.cs
+          path: Assets\Controls.inputactions.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Controls.inputactions.meta
+          projectPath: Assets\Controls.inputactions.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Controls.inputactions
-        label: Controls.inputactions
+      - path: Assets\InputSystem.inputsettings.asset.meta
+        label: InputSystem.inputsettings.asset.meta
         level: 1
         isFolder: 0
         isContainer: 0
@@ -2302,14 +3227,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Controls.inputactions
-          fullPath: D:\Unity Stuff\Showcase\Assets\Controls.inputactions
-          projectPath: Assets\Controls.inputactions
+          path: Assets\InputSystem.inputsettings.asset.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\InputSystem.inputsettings.asset.meta
+          projectPath: Assets\InputSystem.inputsettings.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\InputReader.cs
-        label: InputReader.cs
+      - path: Assets\Materials.meta
+        label: Materials.meta
         level: 1
         isFolder: 0
         isContainer: 0
@@ -2320,27 +3245,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\InputReader.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\InputReader.cs
-          projectPath: Assets\InputReader.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\InputSystem.inputsettings.asset
-        label: InputSystem.inputsettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\InputSystem.inputsettings.asset
-          fullPath: D:\Unity Stuff\Showcase\Assets\InputSystem.inputsettings.asset
-          projectPath: Assets\InputSystem.inputsettings.asset
+          path: Assets\Materials.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials.meta
+          projectPath: Assets\Materials.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2362,8 +3269,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Materials\Black.mat
-        label: Black.mat
+      - path: Assets\Materials\Black.mat.meta
+        label: Black.mat.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2374,14 +3281,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Black.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Black.mat
-          projectPath: Assets\Materials\Black.mat
+          path: Assets\Materials\Black.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Black.mat.meta
+          projectPath: Assets\Materials\Black.mat.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Materials\Blue.mat
-        label: Blue.mat
+      - path: Assets\Materials\Blue.mat.meta
+        label: Blue.mat.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2392,14 +3299,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Blue.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Blue.mat
-          projectPath: Assets\Materials\Blue.mat
+          path: Assets\Materials\Blue.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Blue.mat.meta
+          projectPath: Assets\Materials\Blue.mat.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Materials\Brown.mat
-        label: Brown.mat
+      - path: Assets\Materials\Brown.mat.meta
+        label: Brown.mat.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2410,14 +3317,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Brown.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Brown.mat
-          projectPath: Assets\Materials\Brown.mat
+          path: Assets\Materials\Brown.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Brown.mat.meta
+          projectPath: Assets\Materials\Brown.mat.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Materials\Gold.mat
-        label: Gold.mat
+      - path: Assets\Materials\Gold.mat.meta
+        label: Gold.mat.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2428,14 +3335,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Gold.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Gold.mat
-          projectPath: Assets\Materials\Gold.mat
+          path: Assets\Materials\Gold.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Gold.mat.meta
+          projectPath: Assets\Materials\Gold.mat.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Materials\Ground_MAT.mat
-        label: Ground_MAT.mat
+      - path: Assets\Materials\Ground_MAT.mat.meta
+        label: Ground_MAT.mat.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2446,14 +3353,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Ground_MAT.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Ground_MAT.mat
-          projectPath: Assets\Materials\Ground_MAT.mat
+          path: Assets\Materials\Ground_MAT.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Ground_MAT.mat.meta
+          projectPath: Assets\Materials\Ground_MAT.mat.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Materials\Red.mat
-        label: Red.mat
+      - path: Assets\Materials\Red.mat.meta
+        label: Red.mat.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2464,9 +3371,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Red.mat
-          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Red.mat
-          projectPath: Assets\Materials\Red.mat
+          path: Assets\Materials\Red.mat.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Materials\Red.mat.meta
+          projectPath: Assets\Materials\Red.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Prefabs.meta
+        label: Prefabs.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2488,8 +3413,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Prefabs\Chest.prefab
-        label: Chest.prefab
+      - path: Assets\Prefabs\Chest.prefab.meta
+        label: Chest.prefab.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2500,14 +3425,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\Chest.prefab
-          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Chest.prefab
-          projectPath: Assets\Prefabs\Chest.prefab
+          path: Assets\Prefabs\Chest.prefab.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Chest.prefab.meta
+          projectPath: Assets\Prefabs\Chest.prefab.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Prefabs\Mountain (6).prefab
-        label: Mountain (6).prefab
+      - path: Assets\Prefabs\Mountain (6).prefab.meta
+        label: Mountain (6).prefab.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2518,14 +3443,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\Mountain (6).prefab
-          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Mountain (6).prefab
-          projectPath: Assets\Prefabs\Mountain (6).prefab
+          path: Assets\Prefabs\Mountain (6).prefab.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Mountain (6).prefab.meta
+          projectPath: Assets\Prefabs\Mountain (6).prefab.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Prefabs\Obstacle.prefab
-        label: Obstacle.prefab
+      - path: Assets\Prefabs\Obstacle.prefab.meta
+        label: Obstacle.prefab.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2536,15 +3461,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\Obstacle.prefab
-          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Obstacle.prefab
-          projectPath: Assets\Prefabs\Obstacle.prefab
+          path: Assets\Prefabs\Obstacle.prefab.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Obstacle.prefab.meta
+          projectPath: Assets\Prefabs\Obstacle.prefab.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Prefabs\Player.prefab
-        label: Player.prefab
-        level: 2
+      - path: Assets\Scenes.meta
+        label: Scenes.meta
+        level: 1
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2554,9 +3479,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab
-          fullPath: D:\Unity Stuff\Showcase\Assets\Prefabs\Player.prefab
-          projectPath: Assets\Prefabs\Player.prefab
+          path: Assets\Scenes.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2578,8 +3503,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\Main.unity
-        label: Main.unity
+      - path: Assets\Scenes\Main.unity.meta
+        label: Main.unity.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2590,9 +3515,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\Main.unity
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity
-          projectPath: Assets\Scenes\Main.unity
+          path: Assets\Scenes\Main.unity.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scenes\Main.unity.meta
+          projectPath: Assets\Scenes\Main.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        label: Scripts.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2614,6 +3557,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Scripts\Controls.cs.meta
+        label: Controls.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Controls.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\Controls.cs.meta
+          projectPath: Assets\Scripts\Controls.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scripts\HealthComponent.cs.meta
+        label: HealthComponent.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\HealthComponent.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\HealthComponent.cs.meta
+          projectPath: Assets\Scripts\HealthComponent.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scripts\InputReader.cs.meta
+        label: InputReader.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\InputReader.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\InputReader.cs.meta
+          projectPath: Assets\Scripts\InputReader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStates.meta
+        label: PlayerStates.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerStates.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates.meta
+          projectPath: Assets\Scripts\PlayerStates.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - path: Assets\Scripts\PlayerStates
         label: PlayerStates
         level: 2
@@ -2632,8 +3647,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
-        label: PlayerBaseState.cs
+      - path: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+        label: PlayerBaseState.cs.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2644,14 +3659,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\PlayerStates\PlayerBaseState.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs
-          projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs
+          path: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerBaseState.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs
-        label: PlayerFallState.cs
+      - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+        label: PlayerDeadState.cs.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2662,14 +3677,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\PlayerStates\PlayerFallState.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs
-          projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs
+          path: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
-        label: PlayerJumpState.cs
+      - path: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+        label: PlayerFallState.cs.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2680,14 +3695,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\PlayerStates\PlayerJumpState.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs
-          projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs
+          path: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerFallState.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
-        label: PlayerMoveState.cs
+      - path: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+        label: PlayerJumpState.cs.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2698,14 +3713,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\PlayerStates\PlayerMoveState.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs
-          projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs
+          path: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerJumpState.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
-        label: PlayerStateMachine.cs
+      - path: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+        label: PlayerMoveState.cs.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2716,14 +3731,32 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs
-          projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs
+          path: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerMoveState.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Scripts\State.cs
-        label: State.cs
+      - path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+        label: PlayerStateMachine.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+          projectPath: Assets\Scripts\PlayerStates\PlayerStateMachine.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scripts\State.cs.meta
+        label: State.cs.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2734,14 +3767,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\State.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\State.cs
-          projectPath: Assets\Scripts\State.cs
+          path: Assets\Scripts\State.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\State.cs.meta
+          projectPath: Assets\Scripts\State.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - path: Assets\Scripts\StateMachine.cs
-        label: StateMachine.cs
+      - path: Assets\Scripts\StateMachine.cs.meta
+        label: StateMachine.cs.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2752,9 +3785,63 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\StateMachine.cs
-          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs
-          projectPath: Assets\Scripts\StateMachine.cs
+          path: Assets\Scripts\StateMachine.cs.meta
+          fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\StateMachine.cs.meta
+          projectPath: Assets\Scripts\StateMachine.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: D:\Unity Stuff\Showcase\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: D:\Unity Stuff\Showcase\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2776,458 +3863,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        label: SceneTemplateSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\SceneTemplateSettings.json
-          projectPath: ProjectSettings\SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\boot.config
-        label: boot.config
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\boot.config
-          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\boot.config
-          projectPath: ProjectSettings\boot.config
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: D:\Unity Stuff\Showcase\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
+      - path: ProjectSettings\Packages
+        label: Packages
         level: 1
         isFolder: 1
         isContainer: 0
@@ -3244,10 +3881,10 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
+        label: com.unity.testtools.codecoverage
         level: 2
-        isFolder: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -3256,15 +3893,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: D:\Unity Stuff\Showcase\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          indexStatus: 4
+          indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        label: Settings.json
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3274,9 +3911,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: D:\Unity Stuff\Showcase\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
+          path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: D:\Unity Stuff\Showcase\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -3352,16 +3989,22 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-11-29T14:42:31.844+00:00
+      updatedTimeString: 2022-11-30T13:05:35.265+00:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2022-11-29T14:42:33.271+00:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-11-29T14:42:56.845+00:00
+      updatedTimeString: 2022-11-30T13:19:49.187+00:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+      fullPath: D:\Unity Stuff\Showcase\Assets\Scripts\PlayerStates\PlayerDeadState.cs
+      projectPath: Assets\Scripts\PlayerStates\PlayerDeadState.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -3388,13 +4031,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-11-29T19:53:39.632+00:00
+    updatedTimeString: 2022-11-30T13:05:35.265+00:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-11-29T19:53:41.019+00:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-11-29T19:53:40.908+00:00
+    updatedTimeString: 2022-11-30T13:19:49.187+00:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3437,10 +4080,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 314
+    x: 319
     y: 73
-    width: 1014
-    height: 573
+    width: 1069
+    height: 515
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3453,11 +4096,11 @@ MonoBehaviour:
     - e00: 0.70624375
       e01: 0
       e02: 0
-      e03: -11.47915
+      e03: -23.479149
       e10: 0
       e11: 0.70624375
       e12: 0
-      e13: 229.8074
+      e13: 190.8074
       e20: 0
       e21: 0
       e22: 1
@@ -3539,36 +4182,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BoxBoi
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/BoxBoi
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Stuff\Showcase
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a4a0000
-    m_LastClickedID: 19082
-    m_ExpandedIDs: 00000000804a0000824a0000844a0000864a0000884a00008a4a000000ca9a3b
+    m_SelectedIDs: de4c0000
+    m_LastClickedID: 19678
+    m_ExpandedIDs: 00000000d64c0000d84c0000da4c0000dc4c0000de4c0000ee4d0000f04d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scripts
-      m_OriginalName: Scripts
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19080
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -3582,7 +4225,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000804a0000824a0000844a0000864a0000884a00008a4a0000
+    m_ExpandedIDs: 00000000d64c0000d84c0000da4c0000dc4c0000de4c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3607,10 +4250,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: b44b0000
+    m_LastClickedInstanceID: 19380
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000000000000a2650000905f000096490000
+    m_ExpandedInstanceIDs: c623000000000000a2650000905f000096490000e04b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3710,9 +4353,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 96490000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2688ffff18fbffff6c4900007a490000
+      m_SelectedIDs: b44b0000
+      m_LastClickedID: 19380
+      m_ExpandedIDs: 18fbffff664b0000724b0000c44b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3961,9 +4604,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.32728958, y: -4.4200497, z: 14.812099}
+    m_Target: {x: -23.265495, y: 2.02415, z: 15.084193}
     speed: 2
-    m_Value: {x: 0.32728958, y: -4.4200497, z: 14.812099}
+    m_Value: {x: -23.265495, y: 2.02415, z: 15.084193}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4010,13 +4653,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2777235, y: 0.42299527, z: -0.13797732, w: -0.85141}
+    m_Target: {x: -0.22775662, y: 0.38489082, z: -0.09861166, w: -0.888964}
     speed: 2
-    m_Value: {x: -0.2777246, y: 0.42299697, z: -0.13797787, w: -0.85141337}
+    m_Value: {x: -0.22775716, y: 0.38489175, z: -0.0986119, w: -0.88896614}
   m_Size:
-    m_Target: 19.40898
+    m_Target: 8.624528
     speed: 2
-    m_Value: 19.40898
+    m_Value: 8.624528
   m_Ortho:
     m_Target: 0
     speed: 2
